@@ -1,23 +1,16 @@
-# 🔥 알고리즘 스터디
+# 코딩 공부 기록
 
-## 👨‍🏫 개요
+## 🍦 python
+[정리](https://github.com/hufs71/code-study/blob/master/python/README.md)
+* 파이썬 수행 시간 측정 방법
+```python
+import time
+start_time = time.time() # 측정 시작
 
-- `소개` : 코딩 테스트 대비를 위한 알고리즘 문제 풀이 스터디 👊
-- `언어` : Python, SQL
-- `기간` : 2023년 10월 25일(수) ~ 
-- `시간` : 매주 토요일 AM 10 : 00 ~
-- `장소` : 구글 Meet
+# 프로그램 소스코드
+end_time = time.time() # 측정 종료
+print("time:", end_time - start_time) # 수행 시간 출력
+```
 
-## 👨‍👨‍👦‍👦 참여인원
-
-- 3명: 이세이, 박지호, 허성은
-
-## 🤙 스터디 규칙
-
-1. 월~금 매일 23:59 까지 최소 1문제 풀고 깃헙 업로드 및 노션 기록
-2. 마감 직전에 쉬운 문제를 급히 풀어 올리는 것 지양
-3. 1인 1문제 선정해서 미팅 때 리뷰
-
-### 📁 레포지토리 구조
-
-- clone 받은 레포지토리의 각 폴더에 자신의 이름으로 폴더를 생성한 후 그 안에 풀이 코드를 넣어 커밋한다.
+## ☁️ sql
+[정리](https://github.com/hufs71/code-study/blob/master/sql/README.md)
